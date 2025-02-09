@@ -8,9 +8,9 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-<a href="http://localhost:4321">Home</a>
-<a href="http://localhost:4321/about">About</a>
-<a href="http://localhost:4321/blog">Blog</a>
+<a href="https://astroooooooo.netlify.app/">Home</a>
+<a href="https://astroooooooo.netlify.app/about/">About</a>
+<a href="https://astroooooooo.netlify.app/blog/">Blog</a>
 
 # My First Blog Post
 

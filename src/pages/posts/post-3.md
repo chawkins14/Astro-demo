@@ -8,8 +8,9 @@ image:
 pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]
 ---
-<a href="http://localhost:4321">Home</a>
-<a href="http://localhost:4321/about">About</a>
-<a href="http://localhost:4321/blog">Blog</a>
+<a href="https://astroooooooo.netlify.app/">Home</a>
+<a href="https://astroooooooo.netlify.app/about/">About</a>
+<a href="https://astroooooooo.netlify.app/blog/">Blog</a>
+
 
 It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!

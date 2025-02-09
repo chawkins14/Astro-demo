@@ -8,8 +8,8 @@ image:
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
-<a href="http://localhost:4321">Home</a>
-<a href="http://localhost:4321/about">About</a>
-<a href="http://localhost:4321/blog">Blog</a>
+<a href="https://astroooooooo.netlify.app/">Home</a>
+<a href="https://astroooooooo.netlify.app/about/">About</a>
+<a href="https://astroooooooo.netlify.app/blog/">Blog</a>
 
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!

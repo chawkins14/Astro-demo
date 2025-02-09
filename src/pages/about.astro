@@ -13,9 +13,22 @@ const skills = ["HTML", "CSS", "Javascript", "React", "Astro", "Writing Docs"];
 const happy = true;
 const finished = false;
 const goal = 3;
+
+const skillColor ="navy";
 ---
 
 <html lang="en">
+	<style>
+		h1 {
+			color: purple;
+			font-size: 4rem;
+		}
+
+		.skill {
+			color: var(--skillColor);
+			font-weight: bold;
+		}
+	</style>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -24,9 +37,9 @@ const goal = 3;
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-        <a href="http://localhost:4321">Home</a>
-        <a href="http://localhost:4321/about">About</a>
-        <a href="http://localhost:4321/blog">Blog</a>
+        <a href="https://astroooooooo.netlify.app/">Home</a>
+        <a href="https://astroooooooo.netlify.app/about/">About</a>
+        <a href="https://astroooooooo.netlify.app/blog/">Blog</a>
 		<h1>{pageTitle}</h1>
         <h2>... and my new Astro site!</h2>
         <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself! </p>
@@ -41,7 +54,7 @@ const goal = 3;
 	</ul>
 	<p>My skills are:</p>
 	<ul>
-	{skills.map((skill) => <li>{skill}</li>)}
+	{skills.map((skill) => <li class="skill">{skill}</li>)}
 	</ul>
 	{happy && <p>I am happy to be learning Astro!</p>}
 	{finished && <p>I finished this tutotial!</p>}
