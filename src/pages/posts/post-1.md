@@ -8,9 +8,9 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Blog</a>
+<a href="/">Home</a>
+<a href="/">About</a>
+<a href="/">Blog</a>
 
 # My First Blog Post
 
