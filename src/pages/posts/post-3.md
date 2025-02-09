@@ -9,8 +9,8 @@ pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]
 ---
 <a href="/">Home</a>
-<a href="/">About</a>
-<a href="/">Blog</a>
+<a href="/about/">About</a>
+<a href="/blog/">Blog</a>
 
 
 It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
