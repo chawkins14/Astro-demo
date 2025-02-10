@@ -1,7 +1,10 @@
 ---
+import Navigation from './Compotents/Navigation.astro';
+import Header from './Compotents/Header.astro';
+import Footer from './Compotents/Footer.astro';
 import './styles/global.css';
 
-const homePage = "Home Page"
+const pageTitle= "Home Page"
 ---
 
 <html lang="en">
@@ -10,12 +13,14 @@ const homePage = "Home Page"
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{homePage}</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
-		<h1>{homePage}</h1>
+		<Header />
+		<h1>{pageTitle}</h1>
+		<Footer/>
+		<script>
+			import "./Scripts/menu.js";
+		</script>
 	</body>
 </html>
