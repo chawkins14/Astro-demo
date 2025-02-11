@@ -1,5 +1,4 @@
 ---
-import './styles/global.css';
 
 import BaseLayout from './layouts/BaseLayout.astro';
 
@@ -25,7 +24,7 @@ const textCase = "Uppercase";
 
 	<BaseLayout pageTitle={pageTitle}>
 		<head>
-			<style define:vars={{skillColor, fontWeight, textCase}}>
+			<style is:global define:vars={{skillColor, fontWeight, textCase}}>
 				h1 {
 					color: purple;
 					font-size: 4rem;
